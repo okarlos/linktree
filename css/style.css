@@ -4,8 +4,8 @@
   }
 
 body {
-    font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
+    background-color: var(--body-bg-color);
 }
 
 .container {
@@ -23,9 +23,29 @@ body {
 }
 
 .picture {
-    margin-top: 200px;
+    margin-top: 100px;
     width: 200px;
     border-radius: 100%;
     padding: 5px;
     border: 2px var(--purple) solid;
+}
+
+.instagram {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: var(--purple);
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+.button {
+    text-decoration: none;
+    width: 326px;
+    height: 49px;
+    border: 2px var(--purple) solid;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Poppins';
 }
